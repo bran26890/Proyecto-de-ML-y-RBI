@@ -119,7 +119,8 @@ def procesar_mi_csv(ruta_archivo, nombre_columna_clase):
 
 
 if __name__ == "__main__":
-    mi_archivo = "iris.csv" #Colocar el nombre de la bese de datos.
+    mi_archivo = "iris.csv" #Colocar el nombre de la base de datos.
     mi_columna_clase = "clase" #Colocar el nombre de la columna clase u objetivo.
     #Ejecutamos con el archivo y el target.
+
     procesar_mi_csv(mi_archivo, mi_columna_clase)
